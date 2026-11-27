@@ -1,0 +1,2410 @@
+{
+  "meta": {
+    "title": "ULK Fees Structure for the Academic Year 2026-2027 (Year Ones Only)",
+    "source_document": "FEES-SRTUCTURE-2026-2027.pdf",
+    "issued": "Done at ULK, March 01, 2026",
+    "signed_by": "NYIRASHYIRAMBERE Marie Louise, Deputy-Vice Chancellor / Administration and Finance",
+    "currency": "RWF (Rwandan Francs)",
+    "version": "1.0"
+  },
+  "school": {
+    "name": "Kigali Independent University ULK",
+    "short_name": "ULK",
+    "country": "Republic of Rwanda",
+    "address": "P.O. Box 2280 Kigali",
+    "phones": [
+      "+250 788 304 086",
+      "+250 788 303 670",
+      "+250 788 304 084",
+      "+250 788 304 081",
+      "+250 788 302 644",
+      "+250 788 302 348"
+    ],
+    "email": "info@ulk.ac.rw",
+    "website": "www.ulk.ac.rw",
+    "campuses": [
+      "Kigali Campus",
+      "Gisenyi Campus"
+    ]
+  },
+  "general_notes": [
+    "This fees structure applies to Year One (new) students for the academic year 2026-2027.",
+    "There is no change of fees (tuition and other fees) for ongoing students (Year 2, 3 and 4).",
+    "All fees are the same for both national and international students."
+  ],
+  "levels": {
+    "undergraduate": "Undergraduate (Bachelor's)",
+    "upi_advanced_diploma": "UPI Advanced Diploma",
+    "upi_btech": "UPI Bachelor of Technology (B-Tech)",
+    "masters": "Postgraduate (Master's)",
+    "phd": "PhD"
+  },
+  "schools": [
+    {
+      "id": "sebs",
+      "name": "School of Economics and Business Studies",
+      "level": "undergraduate",
+      "aliases": [
+        "school economics business studies",
+        "economics business",
+        "business school",
+        "sebs",
+        "school business"
+      ]
+    },
+    {
+      "id": "soss",
+      "name": "School of Social Sciences",
+      "level": "undergraduate",
+      "aliases": [
+        "school social sciences",
+        "social sciences",
+        "social science"
+      ]
+    },
+    {
+      "id": "law",
+      "name": "School of Law",
+      "level": "undergraduate",
+      "aliases": [
+        "school law",
+        "law school",
+        "faculty law"
+      ]
+    },
+    {
+      "id": "sst",
+      "name": "School of Science and Technology",
+      "level": "undergraduate",
+      "aliases": [
+        "school science technology",
+        "science technology",
+        "ict",
+        "computing"
+      ]
+    },
+    {
+      "id": "edu",
+      "name": "School of Education",
+      "level": "undergraduate",
+      "aliases": [
+        "school education",
+        "education",
+        "teaching",
+        "teacher"
+      ]
+    },
+    {
+      "id": "upi",
+      "name": "ULK Polytechnic Institute (UPI)",
+      "level": "upi",
+      "aliases": [
+        "polytechnic",
+        "upi",
+        "ulk polytechnic",
+        "technical",
+        "tvet"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "ug_bba_banking",
+      "name": "BBA in Banking",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "bba banking",
+        "banking"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_bba_insurance",
+      "name": "BBA in Insurance & Risk Management",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "insurance risk management",
+        "insurance",
+        "risk management",
+        "bba insurance"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_bba_project",
+      "name": "BBA in Project Management",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "bba project management",
+        "project management"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_bba_procurement",
+      "name": "BBA in Procurement & Supply Chain Management",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "procurement supply chain management",
+        "procurement",
+        "supply chain",
+        "logistics",
+        "bba procurement"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_bba_bit",
+      "name": "BBA in Business Information Technology",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "business information technology",
+        "bit",
+        "bba bit",
+        "bba information technology"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_accounting",
+      "name": "Accounting",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "accounting",
+        "bachelor accounting"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_economics",
+      "name": "Economics",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "economics",
+        "bachelor economics"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_finance",
+      "name": "Finance",
+      "level": "undergraduate",
+      "school": "School of Economics and Business Studies",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "finance",
+        "bachelor finance"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening & Weekend",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening & Weekend",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_development_studies",
+      "name": "Development Studies",
+      "level": "undergraduate",
+      "school": "School of Social Sciences",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "development studies",
+        "development",
+        "bachelor development studies"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_international_relations",
+      "name": "International Relations",
+      "level": "undergraduate",
+      "school": "School of Social Sciences",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "international relations",
+        "ir",
+        "diplomacy"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_public_law",
+      "name": "Public Law",
+      "level": "undergraduate",
+      "school": "School of Law",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "public law",
+        "law"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_private_law",
+      "name": "Private Law",
+      "level": "undergraduate",
+      "school": "School of Law",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "private law",
+        "law"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 220000,
+            "per_year": 660000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening",
+            "per_term": 240000,
+            "per_year": 720000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 170000,
+            "per_year": 510000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening",
+            "per_term": 190000,
+            "per_year": 570000
+          }
+        ]
+      }
+    },
+    {
+      "id": "ug_networking",
+      "name": "Networking",
+      "level": "undergraduate",
+      "school": "School of Science and Technology",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "networking",
+        "computer networking",
+        "network"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 250000,
+            "per_year": 750000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening",
+            "per_term": 270000,
+            "per_year": 810000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 180000,
+            "per_year": 540000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening",
+            "per_term": 200000,
+            "per_year": 600000
+          }
+        ]
+      },
+      "notes": "The official document labels the Gisenyi 200,000 Rwf/term line as 'Day students'. Following the pattern of every other table it is most likely the Evening rate - please confirm with the Finance Office."
+    },
+    {
+      "id": "ug_software_engineering",
+      "name": "Software Engineering",
+      "level": "undergraduate",
+      "school": "School of Science and Technology",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "software engineering",
+        "software",
+        "bachelor software engineering"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 250000,
+            "per_year": 750000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening",
+            "per_term": 270000,
+            "per_year": 810000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 180000,
+            "per_year": 540000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening",
+            "per_term": 200000,
+            "per_year": 600000
+          }
+        ]
+      },
+      "notes": "The official document labels the Gisenyi 200,000 Rwf/term line as 'Day students'. Following the pattern of every other table it is most likely the Evening rate - please confirm with the Finance Office."
+    },
+    {
+      "id": "ug_data_science",
+      "name": "Data Science",
+      "level": "undergraduate",
+      "school": "School of Science and Technology",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "data science",
+        "data"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day",
+            "per_term": 250000,
+            "per_year": 750000
+          },
+          {
+            "campus": "Kigali",
+            "schedule": "Evening",
+            "per_term": 270000,
+            "per_year": 810000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day",
+            "per_term": 180000,
+            "per_year": 540000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Evening",
+            "per_term": 200000,
+            "per_year": 600000
+          }
+        ]
+      },
+      "notes": "The official document labels the Gisenyi 200,000 Rwf/term line as 'Day students'. Following the pattern of every other table it is most likely the Evening rate - please confirm with the Finance Office."
+    },
+    {
+      "id": "edu_bio_chem",
+      "name": "Bachelor of Education in Biology-Chemistry",
+      "level": "undergraduate",
+      "school": "School of Education",
+      "department": "Department of Sciences in Education",
+      "duration": "4 years (Day) / 5 years (Holidays)",
+      "duration_years": [
+        4,
+        5
+      ],
+      "aliases": [
+        "education biology chemistry",
+        "biology chemistry",
+        "biology",
+        "chemistry"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day & Holidays",
+            "per_term": 180000,
+            "per_year": 540000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day & Holidays",
+            "per_term": 150000,
+            "per_year": 450000
+          }
+        ]
+      }
+    },
+    {
+      "id": "edu_math_phys",
+      "name": "Bachelor of Education in Mathematics-Physics",
+      "level": "undergraduate",
+      "school": "School of Education",
+      "department": "Department of Sciences in Education",
+      "duration": "4 years (Day) / 5 years (Holidays)",
+      "duration_years": [
+        4,
+        5
+      ],
+      "aliases": [
+        "education mathematics physics",
+        "mathematics physics",
+        "mathematics",
+        "math",
+        "maths"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day & Holidays",
+            "per_term": 180000,
+            "per_year": 540000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day & Holidays",
+            "per_term": 150000,
+            "per_year": 450000
+          }
+        ]
+      }
+    },
+    {
+      "id": "edu_cs_phys",
+      "name": "Bachelor of Education in Computer Science-Physics",
+      "level": "undergraduate",
+      "school": "School of Education",
+      "department": "Department of Sciences in Education",
+      "duration": "4 years (Day) / 5 years (Holidays)",
+      "duration_years": [
+        4,
+        5
+      ],
+      "aliases": [
+        "education computer science physics",
+        "computer science physics",
+        "computer science"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day & Holidays",
+            "per_term": 180000,
+            "per_year": 540000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day & Holidays",
+            "per_term": 150000,
+            "per_year": 450000
+          }
+        ]
+      }
+    },
+    {
+      "id": "edu_geo_hist",
+      "name": "Bachelor of Education in Geography-History",
+      "level": "undergraduate",
+      "school": "School of Education",
+      "department": "Department of Languages and Humanities in Education",
+      "duration": "4 years (Day) / 5 years (Holidays)",
+      "duration_years": [
+        4,
+        5
+      ],
+      "aliases": [
+        "education geography history",
+        "geography history",
+        "geography",
+        "history"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day & Holidays",
+            "per_term": 150000,
+            "per_year": 450000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day & Holidays",
+            "per_term": 140000,
+            "per_year": 420000
+          }
+        ]
+      }
+    },
+    {
+      "id": "edu_eng_fr",
+      "name": "Bachelor of Education in English-French",
+      "level": "undergraduate",
+      "school": "School of Education",
+      "department": "Department of Languages and Humanities in Education",
+      "duration": "4 years (Day) / 5 years (Holidays)",
+      "duration_years": [
+        4,
+        5
+      ],
+      "aliases": [
+        "education english french",
+        "english french",
+        "french"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day & Holidays",
+            "per_term": 150000,
+            "per_year": 450000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day & Holidays",
+            "per_term": 140000,
+            "per_year": 420000
+          }
+        ]
+      }
+    },
+    {
+      "id": "edu_eng_kin",
+      "name": "Bachelor of Education in English-Kinyarwanda",
+      "level": "undergraduate",
+      "school": "School of Education",
+      "department": "Department of Languages and Humanities in Education",
+      "duration": "4 years (Day) / 5 years (Holidays)",
+      "duration_years": [
+        4,
+        5
+      ],
+      "aliases": [
+        "education english kinyarwanda",
+        "english kinyarwanda",
+        "kinyarwanda"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day & Holidays",
+            "per_term": 150000,
+            "per_year": 450000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day & Holidays",
+            "per_term": 140000,
+            "per_year": 420000
+          }
+        ]
+      }
+    },
+    {
+      "id": "edu_eng_sw",
+      "name": "Bachelor of Education in English-Kiswahili",
+      "level": "undergraduate",
+      "school": "School of Education",
+      "department": "Department of Languages and Humanities in Education",
+      "duration": "4 years (Day) / 5 years (Holidays)",
+      "duration_years": [
+        4,
+        5
+      ],
+      "aliases": [
+        "education english kiswahili",
+        "english kiswahili",
+        "kiswahili",
+        "swahili"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "term",
+        "terms_per_year": 3,
+        "rates": [
+          {
+            "campus": "Kigali",
+            "schedule": "Day & Holidays",
+            "per_term": 150000,
+            "per_year": 450000
+          },
+          {
+            "campus": "Gisenyi",
+            "schedule": "Day & Holidays",
+            "per_term": 140000,
+            "per_year": 420000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_dip_electrical",
+      "name": "Advanced Diploma in Electrical Technology",
+      "level": "upi_advanced_diploma",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Electrical and Electronics",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "electrical technology",
+        "electrical",
+        "diploma electrical"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day",
+            "per_year": 690000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening",
+            "per_year": 750000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_dip_electronics",
+      "name": "Advanced Diploma in Electronics and Telecommunication",
+      "level": "upi_advanced_diploma",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Electrical and Electronics",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "electronics telecommunication",
+        "electronics",
+        "telecommunication",
+        "diploma electronics"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day",
+            "per_year": 690000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening",
+            "per_year": 750000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_dip_construction",
+      "name": "Advanced Diploma in Construction Technology",
+      "level": "upi_advanced_diploma",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Civil Engineering",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "construction technology",
+        "construction",
+        "civil engineering",
+        "diploma construction"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day",
+            "per_year": 690000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening",
+            "per_year": 750000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_dip_land_survey",
+      "name": "Advanced Diploma in Land Survey Engineering",
+      "level": "upi_advanced_diploma",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Civil Engineering",
+      "duration": "3 years",
+      "duration_years": [
+        3
+      ],
+      "aliases": [
+        "land survey engineering",
+        "land survey",
+        "surveying",
+        "diploma land survey"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day",
+            "per_year": 690000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening",
+            "per_year": 750000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_btech_electrical",
+      "name": "B-Tech in Electrical Technology",
+      "level": "upi_btech",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Electrical and Electronics",
+      "duration": "1 year",
+      "duration_years": [
+        1
+      ],
+      "aliases": [
+        "btech electrical technology",
+        "btech electrical",
+        "electrical technology",
+        "electrical"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day (44 weeks)",
+            "per_year": 1200000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening (53 weeks)",
+            "per_year": 1200000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_btech_electronics",
+      "name": "B-Tech in Electronics and Telecommunication",
+      "level": "upi_btech",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Electrical and Electronics",
+      "duration": "1 year",
+      "duration_years": [
+        1
+      ],
+      "aliases": [
+        "btech electronics telecommunication",
+        "btech electronics",
+        "electronics telecommunication",
+        "electronics",
+        "telecommunication"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day (44 weeks)",
+            "per_year": 1200000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening (53 weeks)",
+            "per_year": 1200000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_btech_construction",
+      "name": "B-Tech in Construction Technology",
+      "level": "upi_btech",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Civil Engineering",
+      "duration": "1 year",
+      "duration_years": [
+        1
+      ],
+      "aliases": [
+        "btech construction technology",
+        "btech construction",
+        "construction technology",
+        "construction",
+        "civil engineering"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day (44 weeks)",
+            "per_year": 1200000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening (53 weeks)",
+            "per_year": 1200000
+          }
+        ]
+      }
+    },
+    {
+      "id": "upi_btech_land_survey",
+      "name": "B-Tech in Land Surveying Engineering",
+      "level": "upi_btech",
+      "school": "ULK Polytechnic Institute (UPI)",
+      "department": "Department of Civil Engineering",
+      "duration": "1 year",
+      "duration_years": [
+        1
+      ],
+      "aliases": [
+        "btech land surveying engineering",
+        "btech land survey",
+        "land surveying engineering",
+        "land survey",
+        "surveying"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "year",
+        "rates": [
+          {
+            "campus": "All",
+            "schedule": "Day (44 weeks)",
+            "per_year": 1200000
+          },
+          {
+            "campus": "All",
+            "schedule": "Evening (53 weeks)",
+            "per_year": 1200000
+          }
+        ]
+      }
+    },
+    {
+      "id": "msc_mba_general",
+      "name": "Master of Business Administration",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master business administration",
+        "mba general",
+        "mba"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_finance",
+      "name": "Master of Finance",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master finance"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_accounting",
+      "name": "Master of Accounting",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master accounting"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_economics",
+      "name": "Master of Science in Economics",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master science economics",
+        "msc economics",
+        "master economics"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_governance",
+      "name": "Master of Governance",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master governance",
+        "governance"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_development",
+      "name": "Master of Development Studies",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master development studies",
+        "master development"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_public_intl_law",
+      "name": "Master of Public International Law",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master public international law",
+        "public international law",
+        "llm public international law"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_intl_econ_business_law",
+      "name": "Master of International Economic and Business Law",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master international economic business law",
+        "international economic business law",
+        "business law",
+        "llm business law"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "msc_internet_systems",
+      "name": "Master of Science in Internet Systems",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master science internet systems",
+        "internet systems",
+        "msc internet systems"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 10,
+        "estimated_total": 1600000
+      }
+    },
+    {
+      "id": "mba_finance",
+      "name": "MBA: Finance",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "mba finance"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 16,
+        "estimated_total": 2560000
+      }
+    },
+    {
+      "id": "mba_marketing",
+      "name": "MBA: Marketing",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "mba marketing",
+        "marketing"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 16,
+        "estimated_total": 2560000
+      }
+    },
+    {
+      "id": "mba_accounting",
+      "name": "MBA: Accounting",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "mba accounting"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 16,
+        "estimated_total": 2560000
+      }
+    },
+    {
+      "id": "mba_project",
+      "name": "MBA: Project Management",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "mba project management"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 16,
+        "estimated_total": 2560000
+      }
+    },
+    {
+      "id": "mba_hrm",
+      "name": "MBA: Human Resource Management",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "mba human resource management",
+        "human resource management",
+        "human resource",
+        "hrm",
+        "hr"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 16,
+        "estimated_total": 2560000
+      }
+    },
+    {
+      "id": "mba_procurement",
+      "name": "MBA: Procurement & Supply Chain Management",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "mba procurement supply chain management",
+        "mba procurement",
+        "mba supply chain"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 16,
+        "estimated_total": 2560000
+      }
+    },
+    {
+      "id": "msc_software_engineering",
+      "name": "Master of Science in Software Engineering",
+      "level": "masters",
+      "school": "Postgraduate Studies",
+      "duration": "2 years",
+      "duration_years": [
+        2
+      ],
+      "aliases": [
+        "master science software engineering",
+        "msc software engineering",
+        "master software engineering"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "module",
+        "per_module": 160000,
+        "modules": 14,
+        "estimated_total": 2240000
+      }
+    },
+    {
+      "id": "phd_accounting",
+      "name": "PhD in Business Administration - Accounting",
+      "level": "phd",
+      "school": "PhD Programmes in Business Administration",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "phd accounting",
+        "doctorate accounting"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "semester",
+        "per_semester": 1500000,
+        "per_year": 3000000,
+        "estimated_total": 12000000
+      },
+      "application_fee": 100000,
+      "admission_fee": 100000
+    },
+    {
+      "id": "phd_finance",
+      "name": "PhD in Business Administration - Finance",
+      "level": "phd",
+      "school": "PhD Programmes in Business Administration",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "phd finance",
+        "doctorate finance"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "semester",
+        "per_semester": 1500000,
+        "per_year": 3000000,
+        "estimated_total": 12000000
+      },
+      "application_fee": 100000,
+      "admission_fee": 100000
+    },
+    {
+      "id": "phd_management",
+      "name": "PhD in Business Administration - Management",
+      "level": "phd",
+      "school": "PhD Programmes in Business Administration",
+      "duration": "4 years",
+      "duration_years": [
+        4
+      ],
+      "aliases": [
+        "phd management",
+        "doctorate management",
+        "phd business administration"
+      ],
+      "tuition": {
+        "currency": "RWF",
+        "unit": "semester",
+        "per_semester": 1500000,
+        "per_year": 3000000,
+        "estimated_total": 12000000
+      },
+      "application_fee": 100000,
+      "admission_fee": 100000
+    }
+  ],
+  "graduation_fees": {
+    "name": "Supervision (Dissertation/Project), Degree and Gown fees",
+    "refundable": false,
+    "by_level": {
+      "undergraduate": 250000,
+      "upi_advanced_diploma": 250000,
+      "upi_btech": 360000,
+      "masters": 360000
+    },
+    "aliases": [
+      "supervision",
+      "supervision fee",
+      "dissertation fee",
+      "graduation",
+      "graduation fee",
+      "gown fee",
+      "degree gown",
+      "degree fee",
+      "project supervision"
+    ]
+  },
+  "non_tuition_fees": [
+    {
+      "id": "application_fee",
+      "name": "Application fees",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "application",
+        "apply",
+        "application form",
+        "application fee"
+      ]
+    },
+    {
+      "id": "registration_fee",
+      "name": "Registration fees (student card, file, documents scanning services & life insurance included)",
+      "amount": 45000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "registration",
+        "register",
+        "registration fee",
+        "enrolment",
+        "enrollment",
+        "life insurance"
+      ]
+    },
+    {
+      "id": "student_card_duplicate",
+      "name": "Student card (duplicate)",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "student card duplicate",
+        "duplicate card",
+        "lost card",
+        "replace card",
+        "new student card",
+        "student card"
+      ]
+    },
+    {
+      "id": "retake_fee",
+      "name": "Retake fees",
+      "amount": 50000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "retake",
+        "retake fee",
+        "repeat module",
+        "failed module"
+      ]
+    },
+    {
+      "id": "supplementary_exam",
+      "name": "Supplementary exam fee",
+      "amount": 30000,
+      "currency": "RWF",
+      "comment": "Per assessment",
+      "aliases": [
+        "supplementary exam",
+        "supplementary",
+        "supp exam",
+        "resit"
+      ]
+    },
+    {
+      "id": "degree_duplicate",
+      "name": "Degree - duplicate",
+      "amount": 40000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "degree duplicate",
+        "duplicate degree",
+        "lost degree",
+        "replace degree"
+      ]
+    },
+    {
+      "id": "transcript",
+      "name": "Academic transcript",
+      "amount": 15000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "academic transcript",
+        "transcript"
+      ]
+    },
+    {
+      "id": "transcript_translation",
+      "name": "Academic transcript (translation)",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "transcript translation",
+        "translated transcript",
+        "translation"
+      ]
+    },
+    {
+      "id": "attendance_testimonial",
+      "name": "Attendance testimonial",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "attendance testimonial",
+        "attendance",
+        "proof attendance"
+      ]
+    },
+    {
+      "id": "completion_certificate",
+      "name": "Certificate of completion of all modules",
+      "amount": 15000,
+      "currency": "RWF",
+      "comment": "Concerns students in final year waiting for graduation",
+      "aliases": [
+        "certificate completion",
+        "completion certificate",
+        "completion"
+      ]
+    },
+    {
+      "id": "recommendation_letter",
+      "name": "Recommendation letter (further study)",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "recommendation letter",
+        "recommendation",
+        "reference letter"
+      ]
+    },
+    {
+      "id": "english_proficiency",
+      "name": "English proficiency certificate",
+      "amount": 20000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "english proficiency certificate",
+        "english proficiency",
+        "proficiency"
+      ]
+    },
+    {
+      "id": "english_medium_testimonial",
+      "name": "English as medium of instruction testimonial",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "english medium instruction testimonial",
+        "medium instruction",
+        "english medium"
+      ]
+    },
+    {
+      "id": "internal_transfer",
+      "name": "Students internal transfer fees",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "internal transfer",
+        "change program",
+        "change department",
+        "switch program",
+        "transfer"
+      ]
+    },
+    {
+      "id": "special_exam",
+      "name": "Special exam fees",
+      "amount": 30000,
+      "currency": "RWF",
+      "comment": "Per assessment",
+      "aliases": [
+        "special exam",
+        "special examination"
+      ]
+    },
+    {
+      "id": "external_credit_transfer",
+      "name": "Application for external credit transfer",
+      "amount": 20000,
+      "currency": "RWF",
+      "comment": "For assessment of credit transfer",
+      "aliases": [
+        "external credit transfer",
+        "credit transfer",
+        "transfer credit"
+      ]
+    },
+    {
+      "id": "damaged_cap",
+      "name": "Damaged cap",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "damaged cap",
+        "lost cap",
+        "cap"
+      ]
+    },
+    {
+      "id": "damaged_sash",
+      "name": "Damaged sash",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "damaged sash",
+        "lost sash",
+        "sash"
+      ]
+    },
+    {
+      "id": "damaged_gown",
+      "name": "Damaged gown",
+      "amount": 40000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "damaged gown",
+        "lost gown"
+      ]
+    },
+    {
+      "id": "late_gown_return",
+      "name": "Late return of gown, cap and sash",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "Per month",
+      "aliases": [
+        "late return gown",
+        "late return",
+        "return gown"
+      ]
+    },
+    {
+      "id": "late_document_withdrawal",
+      "name": "Late withdrawal of requested academic document(s)",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "Applies when withdrawal is not done within a month",
+      "aliases": [
+        "late withdrawal document",
+        "late withdrawal",
+        "withdrawal document"
+      ]
+    },
+    {
+      "id": "memorant_masters_no_fail",
+      "name": "Registration (Memorant / Master's without any failed module)",
+      "amount": 145000,
+      "currency": "RWF",
+      "comment": "Management fees (registration fees included)",
+      "aliases": [
+        "memorant master",
+        "memorant masters",
+        "master memorant",
+        "memorant"
+      ]
+    },
+    {
+      "id": "memorant_masters_retakes",
+      "name": "Registration (Memorant with retakes - listed in the document as 'Undergraduate with retakes', 2nd row)",
+      "amount": 145000,
+      "currency": "RWF",
+      "comment": "Management fees. However, modules to complete are paid each accordingly. Note: the document lists this row as 'Undergraduate with retakes' directly after the Master's row; it most likely refers to Master's students with retakes - confirm with the Finance Office.",
+      "aliases": [
+        "memorant master retake",
+        "memorant masters retakes",
+        "memorant"
+      ]
+    },
+    {
+      "id": "memorant_ug_no_fail",
+      "name": "Registration (Memorant / Undergraduate without any failed module)",
+      "amount": 100000,
+      "currency": "RWF",
+      "comment": "Management fees (registration fees included)",
+      "aliases": [
+        "memorant undergraduate",
+        "memorant bachelor",
+        "memorant"
+      ]
+    },
+    {
+      "id": "memorant_ug_retakes",
+      "name": "Registration (Memorant / Undergraduate with retakes)",
+      "amount": 45000,
+      "currency": "RWF",
+      "comment": "Modules to complete are paid each accordingly",
+      "aliases": [
+        "memorant undergraduate retake",
+        "memorant retake",
+        "memorant"
+      ]
+    },
+    {
+      "id": "proof_of_payment",
+      "name": "Proof of payment",
+      "amount": 5000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "proof payment",
+        "payment proof",
+        "receipt"
+      ]
+    },
+    {
+      "id": "archived_document",
+      "name": "Archived document (degree not withdrawn or a copy from one's file)",
+      "amount": 20000,
+      "currency": "RWF",
+      "comment": "Not refundable",
+      "aliases": [
+        "archived document",
+        "archive",
+        "copy file"
+      ]
+    },
+    {
+      "id": "authentication",
+      "name": "Authentication service (of academic documents)",
+      "amount": 20000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "authentication",
+        "authenticate",
+        "certify document",
+        "verification"
+      ]
+    },
+    {
+      "id": "late_dissertation_submission",
+      "name": "Late submission of dissertation/thesis in the library",
+      "amount": 65000,
+      "currency": "RWF",
+      "comment": "Management fees",
+      "aliases": [
+        "late submission dissertation",
+        "late submission thesis",
+        "late submission"
+      ]
+    },
+    {
+      "id": "late_defense",
+      "name": "Late defense of dissertation/thesis",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "Per day",
+      "aliases": [
+        "late defense",
+        "late defence"
+      ]
+    },
+    {
+      "id": "detailed_program_document",
+      "name": "Detailed program document",
+      "amount": 200000,
+      "currency": "RWF",
+      "comment": "For alumni pursuing studies abroad looking for exemption/recognition of modules done",
+      "aliases": [
+        "detailed program document",
+        "program document",
+        "course description",
+        "syllabus",
+        "module recognition",
+        "exemption"
+      ]
+    },
+    {
+      "id": "late_claim_marks",
+      "name": "Late claim of marks",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "When an appeal comes after 15 days marks are published in MIS",
+      "aliases": [
+        "late claim marks",
+        "late claim",
+        "marks appeal",
+        "appeal"
+      ]
+    },
+    {
+      "id": "remarking",
+      "name": "Claim for remarking",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "Not refundable; when found genuine, this payment can be transferred to other fees the student may be required to pay later",
+      "aliases": [
+        "claim remarking",
+        "remarking",
+        "remark",
+        "re marking"
+      ]
+    },
+    {
+      "id": "temporary_certificate",
+      "name": "Temporary certificate serving as a student card when lost",
+      "amount": 5000,
+      "currency": "RWF",
+      "comment": "One day validity",
+      "aliases": [
+        "temporary certificate",
+        "temporary card"
+      ]
+    },
+    {
+      "id": "upi_overall",
+      "name": "Overall (for UPI students)",
+      "amount": 20000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "overall",
+        "upi overall"
+      ]
+    },
+    {
+      "id": "upi_field_trip",
+      "name": "Field trip / study visit (for UPI students - Advanced Diploma programme)",
+      "amount": 30000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "field trip",
+        "study visit"
+      ]
+    },
+    {
+      "id": "upi_portfolio",
+      "name": "Missing portfolio building session (for UPI students)",
+      "amount": 20000,
+      "currency": "RWF",
+      "comment": "For one session",
+      "aliases": [
+        "portfolio building",
+        "portfolio",
+        "missing portfolio"
+      ]
+    },
+    {
+      "id": "upi_cbc_reassessment",
+      "name": "CBC reassessment (for UPI students)",
+      "amount": 10000,
+      "currency": "RWF",
+      "comment": "",
+      "aliases": [
+        "cbc reassessment",
+        "cbc",
+        "reassessment"
+      ]
+    }
+  ],
+  "bank_accounts": {
+    "Kigali": [
+      {
+        "bank": "Equity Bank",
+        "account": "4012211287137"
+      },
+      {
+        "bank": "Bank of Kigali",
+        "account": "00040-00201556-23"
+      },
+      {
+        "bank": "Unguka Bank",
+        "account": "10100460240010"
+      },
+      {
+        "bank": "I&M Bank",
+        "account": "20014031001"
+      }
+    ],
+    "Gisenyi": [
+      {
+        "bank": "Equity Bank",
+        "account": "4006211289277"
+      },
+      {
+        "bank": "Bank of Kigali",
+        "account": "000530066946623"
+      },
+      {
+        "bank": "Unguka Bank",
+        "account": "30400466900014"
+      },
+      {
+        "bank": "I&M Bank",
+        "account": "20014031002"
+      }
+    ]
+  },
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "muraho",
+        "mwaramutse",
+        "mwiriwe",
+        "bonjour",
+        "habari",
+        "salut",
+        "hi there"
+      ],
+      "responses": [
+        "Hello! 👋 I'm the ULK Fees Assistant. Ask me about tuition, programmes, other fees or how to pay.",
+        "Muraho! 👋 How can I help you with ULK fees for 2026-2027 today?",
+        "Hi there! I can tell you tuition fees for any ULK programme, non-tuition fees, and bank accounts for payment."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank",
+        "thanks",
+        "thank you",
+        "murakoze",
+        "merci",
+        "asante",
+        "appreciate"
+      ],
+      "responses": [
+        "You're welcome! 😊 Anything else you'd like to know?",
+        "Murakoze nawe! Feel free to ask another question.",
+        "Happy to help! Good luck with your studies at ULK."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "murabeho",
+        "ciao",
+        "later"
+      ],
+      "responses": [
+        "Goodbye! 👋 For anything else, contact info@ulk.ac.rw.",
+        "Murabeho! Wish you success at ULK."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "your name",
+        "what can you do",
+        "help",
+        "menu",
+        "options"
+      ],
+      "responses": [
+        "I'm the **ULK Fees Assistant** 🎓. I can answer questions about:\n\n- 💰 **Tuition fees** for every programme (Bachelor's, UPI Diploma & B-Tech, Master's, PhD)\n- 🏫 **Campus & schedule** differences (Kigali / Gisenyi, Day / Evening / Weekend / Holidays)\n- 🧾 **Other fees** (registration, transcripts, retakes, graduation gown…)\n- 🏦 **Bank accounts** for payment\n- ☎️ **Contacts**\n\nTry: *\"How much is Software Engineering evening in Kigali?\"*"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "tag": "international",
+      "patterns": [
+        "international student",
+        "foreign student",
+        "foreigner",
+        "non rwandan",
+        "national international",
+        "international fee",
+        "foreign fee",
+        "from abroad",
+        "international applicant"
+      ],
+      "answer": "All fees are the **same for both national and international students**. 🌍"
+    },
+    {
+      "tag": "continuing",
+      "patterns": [
+        "continuing student",
+        "ongoing student",
+        "year 2",
+        "year 3",
+        "year 4",
+        "second year",
+        "third year",
+        "fourth year",
+        "returning student",
+        "old student",
+        "fee change",
+        "fees change",
+        "increase",
+        "increased"
+      ],
+      "answer": "There is **no change of fees** (tuition and other fees) for **ongoing students (Year 2, 3 and 4)**. The 2026-2027 fee structure applies to **Year One (new) students only**."
+    },
+    {
+      "tag": "campuses",
+      "patterns": [
+        "campus",
+        "campuses",
+        "branch",
+        "branches",
+        "location",
+        "where located",
+        "gisenyi campus",
+        "kigali campus",
+        "located",
+        "where is ulk",
+        "where are you",
+        "ulk location"
+      ],
+      "answer": "ULK has two campuses: **Kigali Campus** (P.O. Box 2280 Kigali) and **Gisenyi Campus** (Rubavu). Undergraduate tuition at Gisenyi is generally lower than at Kigali. Ask me about any programme to compare both campuses."
+    },
+    {
+      "tag": "payment_frequency",
+      "patterns": [
+        "per term",
+        "terms per year",
+        "how many terms",
+        "installment",
+        "instalment",
+        "pay per term",
+        "semester"
+      ],
+      "answer": "Undergraduate tuition is quoted **per term (3 terms per year)**. UPI programmes are quoted **per year**, Master's programmes **per module (160,000 Rwf)**, and PhD **per semester (1,500,000 Rwf)**."
+    }
+  ],
+  "fallback": {
+    "responses": [
+      "I'm sorry, I couldn't find that in the 2026-2027 fees structure. 🤔 You can ask about a programme (e.g. *Data Science*, *MBA Marketing*), a fee (e.g. *transcript*, *retake*), or *bank accounts*. For other questions, contact **info@ulk.ac.rw** or call **+250 788 304 086**."
+    ]
+  }
+}
