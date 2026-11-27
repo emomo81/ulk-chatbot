@@ -71,7 +71,7 @@ LLM_MODEL = get_secret("LLM_MODEL", "gpt-4o-mini")
 
 # ----------------------------------------------------------- session state
 WELCOME = (
-    "Muraho! 👋 I'm the **ULK Fees Assistant** for the **2026–2027** academic year.\n\n"
+    "Muraho! I'm the **ULK Fees Assistant** for the **2026–2027** academic year.\n\n"
     "Ask me about tuition for any programme, campus/schedule differences, other fees "
     "(registration, transcripts, retakes…), or the bank accounts for payment."
 )
@@ -106,7 +106,7 @@ with st.sidebar:
     st.markdown(f"### {KB['school']['name']}")
     st.caption(KB["meta"]["title"])
 
-    st.markdown("**💡 Quick questions**")
+    st.markdown("**Quick questions**")
     for q in QUICK:
         if st.button(q, key=f"q_{q}", use_container_width=True):
             st.session_state.pending = q
@@ -114,22 +114,22 @@ with st.sidebar:
     st.divider()
     s = KB["school"]
     st.markdown(
-        f"**☎️ Contact**  \n{s['phones'][0]}  \n{s['phones'][1]}  \n✉️ {s['email']}  \n🌐 {s['website']}"
+        f"**Contact**  \n{s['phones'][0]}  \n{s['phones'][1]}  \n{s['email']}  \n{s['website']}"
     )
     st.divider()
 
     use_ai = False
     if LLM_KEY:
-        use_ai = st.toggle("✨ AI-enhanced answers", value=True,
+        use_ai = st.toggle("AI-enhanced answers", value=True,
                            help="Uses an LLM grounded strictly on knowledge_base.json")
-    st.caption("Mode: " + ("✨ AI + knowledge base" if use_ai else "📘 Knowledge base (offline)"))
+    st.caption("Mode: " + ("AI + knowledge base" if use_ai else "Knowledge base (offline)"))
 
     c1, c2 = st.columns(2)
     with c1:
-        st.button("🗑️ Clear", on_click=reset_chat, use_container_width=True)
+        st.button("Clear", on_click=reset_chat, use_container_width=True)
     with c2:
         st.download_button(
-            "💾 Save chat",
+            "Save chat",
             data=json.dumps(
                 {"exported": datetime.now().isoformat(), "messages": st.session_state.messages},
                 indent=2, ensure_ascii=False),
@@ -148,7 +148,7 @@ st.markdown(
     """
     <div class="ulk-hero">
       <span class="ulk-badge">2026 – 2027 · YEAR ONE</span>
-      <h1>🎓 ULK Fees Assistant</h1>
+      <h1>ULK Fees Assistant</h1>
       <p>Kigali Independent University · Kigali & Gisenyi campuses · Instant answers on tuition and fees</p>
     </div>
     """,
@@ -190,7 +190,7 @@ def llm_answer(question: str, draft: str):
 
 # --------------------------------------------------------------------- chat
 for m in st.session_state.messages:
-    with st.chat_message(m["role"], avatar=("🎓" if m["role"] == "assistant" else "🧑‍🎓")):
+    with st.chat_message(m["role"]):
         st.markdown(m["content"])
 
 # suggestion chips on a fresh chat
@@ -208,19 +208,19 @@ if st.session_state.pending and not prompt:
 
 if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt, "time": datetime.now().isoformat()})
-    with st.chat_message("user", avatar="🧑‍🎓"):
+    with st.chat_message("user"):
         st.markdown(prompt)
 
     draft, info = bot.answer(prompt, st.session_state.memory)
 
-    with st.chat_message("assistant", avatar="🎓"):
+    with st.chat_message("assistant"):
         reply = draft
         if use_ai:
             try:
                 reply = st.write_stream(llm_answer(prompt, draft))
             except Exception as e:  # fall back to the offline engine
                 st.markdown(draft)
-                st.caption(f"⚠️ AI unavailable ({type(e).__name__}); showing knowledge-base answer.")
+                st.caption(f"AI unavailable ({type(e).__name__}); showing knowledge-base answer.")
         else:
             st.markdown(draft)
 

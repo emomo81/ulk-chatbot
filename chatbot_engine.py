@@ -395,8 +395,8 @@ class FeesBot:
     def _program_block(self, p, campus, schedule) -> str:
         t = p["tuition"]
         lvl = self.levels.get(p["level"], p["level"])
-        head = f"### 🎓 {p['name']}\n**{lvl}** · {p['school']}" + (f" · {p['department']}" if p.get("department") else "")
-        head += f"\n\n⏱️ **Duration:** {p['duration']}"
+        head = f"### {p['name']}\n**{lvl}** · {p['school']}" + (f" · {p['department']}" if p.get("department") else "")
+        head += f"\n\n**Duration:** {p['duration']}"
         lines = [head]
         years = p.get("duration_years", [1])
 
@@ -416,12 +416,12 @@ class FeesBot:
                 tbl.append(f"| {r['schedule']} | **{money(r['per_year'])}** | {money(r['per_year'] * y)} ({y} yr{'s' if y > 1 else ''}) |")
             lines.append("\n".join(tbl))
         elif t["unit"] == "module":
-            lines.append(f"💰 **{money(t['per_module'])} per module** × {t['modules']} modules = "
+            lines.append(f"**{money(t['per_module'])} per module** × {t['modules']} modules = "
                          f"**{money(t['estimated_total'])}** estimated total tuition")
         elif t["unit"] == "semester":
-            lines.append(f"💰 **{money(t['per_semester'])} per semester** · {money(t['per_year'])} per year · "
+            lines.append(f"**{money(t['per_semester'])} per semester** · {money(t['per_year'])} per year · "
                          f"≈ {money(t['estimated_total'])} for 4 years\n\n"
-                         f"📝 Application fee: **{money(p['application_fee'])}** · Admission fee: **{money(p['admission_fee'])}**")
+                         f"Application fee: **{money(p['application_fee'])}** · Admission fee: **{money(p['admission_fee'])}**")
 
         grad = self.kb["graduation_fees"]["by_level"].get(p["level"])
         extras = []
@@ -431,9 +431,9 @@ class FeesBot:
             extras.append(f"Application: {money(self.items['application_fee']['amount'])} · "
                           f"Registration: {money(self.items['registration_fee']['amount'])}")
         if extras:
-            lines.append("➕ " + "  \n➕ ".join(extras))
+            lines.append("- " + "  \n- ".join(extras))
         if p.get("notes") and campus in (None, "Gisenyi") and schedule != "Day":
-            lines.append(f"⚠️ _{p['notes']}_")
+            lines.append(f"Note: _{p['notes']}_")
         return "\n\n".join(lines)
 
     def _programs_answer(self, ids, campus, schedule, related) -> str:
@@ -462,10 +462,10 @@ class FeesBot:
         if filt:
             out = f"Showing results for {' and '.join(filt)}:\n\n" + out
         if any(p["level"] == "undergraduate" for p in progs):
-            out += "\n\nℹ️ _Fees apply to Year One students for 2026–2027. Ongoing students (Year 2–4): no change. Same fees for national & international students._"
+            out += "\n\nNote: _Fees apply to Year One students for 2026–2027. Ongoing students (Year 2–4): no change. Same fees for national & international students._"
         if related:
             names = ", ".join(f"*{self.programs[r]['name']}*" for r in related)
-            out += f"\n\n🔎 **Related programmes:** {names} — just ask!"
+            out += f"\n\n**Related programmes:** {names} — just ask!"
         return out
 
     def _items_answer(self, ids, level) -> str:
@@ -478,8 +478,8 @@ class FeesBot:
             it = self.items[i]
             rows.append(f"| {it['name']} | **{money(it['amount'])}** | {it['comment'] or '—'} |")
             if i == "application_fee":
-                extra.append("🎓 _PhD applicants: Application fee **100,000 Frw** and Admission fee **100,000 Frw**._")
-        out = "### 🧾 Other (non-tuition) fees\n\n" + "\n".join(rows) if len(rows) > 2 else ""
+                extra.append("_PhD applicants: Application fee **100,000 Frw** and Admission fee **100,000 Frw**._")
+        out = "### Other (non-tuition) fees\n\n" + "\n".join(rows) if len(rows) > 2 else ""
         if extra:
             out = (out + "\n\n" if out else "") + "\n\n".join(extra)
         return out
@@ -493,24 +493,24 @@ class FeesBot:
             rows.append(f"| {self.levels[lv]} | **{money(amt)}** |")
         if len(rows) == 2:
             rows += [f"| {self.levels[lv]} | **{money(a)}** |" for lv, a in g["by_level"].items()]
-        return f"### 🎓 {g['name']}\n\n" + "\n".join(rows) + "\n\n_Not refundable._"
+        return f"### {g['name']}\n\n" + "\n".join(rows) + "\n\n_Not refundable._"
 
     def _bank_answer(self, campus) -> str:
         accts = self.kb["bank_accounts"]
-        out = ["### 🏦 ULK bank accounts for fee payment"]
+        out = ["### ULK bank accounts for fee payment"]
         for c, lst in accts.items():
             if campus and c != campus:
                 continue
             rows = ["| Bank | Account number |", "|---|---|"] + [f"| {a['bank']} | `{a['account']}` |" for a in lst]
             out.append(f"**{c} Campus**\n\n" + "\n".join(rows))
-        out.append("💡 _Keep your bank slip. A proof of payment document from ULK costs 5,000 Rwf._")
+        out.append("_Keep your bank slip. A proof of payment document from ULK costs 5,000 Rwf._")
         return "\n\n".join(out)
 
     def _contact_answer(self) -> str:
         s = self.kb["school"]
-        phones = "  \n".join(f"📞 {p}" for p in s["phones"])
-        return (f"### ☎️ Contact {s['name']}\n\n{phones}\n\n✉️ **Email:** {s['email']}  \n"
-                f"🌐 **Website:** {s['website']}  \n📮 **Address:** {s['address']}, {s['country']}")
+        phones = "  \n".join(s["phones"])
+        return (f"### Contact {s['name']}\n\n{phones}\n\n**Email:** {s['email']}  \n"
+                f"**Website:** {s['website']}  \n**Address:** {s['address']}, {s['country']}")
 
     def _school_answer(self, school, campus, schedule) -> str:
         if school["id"] == "upi":
@@ -537,7 +537,7 @@ class FeesBot:
                     rows.append(f"| {school} | {names} | {money(r[0]['per_term'])}/term (Day & Holidays) | — | {money(r[1]['per_term'])}/term (Day & Holidays) | — |")
                 else:
                     rows.append(f"| {school} | {names} | {cell('Kigali', False)} | {cell('Kigali', True)} | {cell('Gisenyi', False)} | {cell('Gisenyi', True)} |")
-            return ("### 🎓 Undergraduate tuition 2026–2027 (Year One)\n\n" + "\n".join(rows) +
+            return ("### Undergraduate tuition 2026–2027 (Year One)\n\n" + "\n".join(rows) +
                     "\n\n_3 terms per year. Supervision, Degree & Gown fees: 250,000 Rwf. Ask about a specific programme for full details._")
         if level in ("upi", "upi_advanced_diploma", "upi_btech"):
             ids = [p["id"] for p in self.kb["programs"]
@@ -549,15 +549,15 @@ class FeesBot:
                 if p["level"] == "masters":
                     t = p["tuition"]
                     rows.append(f"| {p['name']} | {t['modules']} | {money(t['per_module'])} | {money(t['estimated_total'])} |")
-            return ("### 🎓 Master's programmes (2 years)\n\n" + "\n".join(rows) +
-                    "\n\n➕ Supervision (Project), Degree & Gown fees: **360,000 Rwf** (not refundable)")
+            return ("### Master's programmes (2 years)\n\n" + "\n".join(rows) +
+                    "\n\nSupervision (Project), Degree & Gown fees: **360,000 Rwf** (not refundable)")
         if level == "phd":
             ids = [p["id"] for p in self.kb["programs"] if p["level"] == "phd"]
             return self._programs_answer(ids, campus, schedule, [])
         return self._all_programs_answer()
 
     def _all_programs_answer(self) -> str:
-        out = ["### 📚 Programmes in the 2026–2027 fees structure"]
+        out = ["### Programmes in the 2026–2027 fees structure"]
         by: dict[str, dict[str, list]] = {}
         for p in self.kb["programs"]:
             by.setdefault(self.levels[p["level"]], {}).setdefault(p["school"], []).append(p["name"])
